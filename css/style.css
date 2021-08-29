@@ -1,3 +1,6 @@
+*{
+	box-sizing: border-box;
+}
 .container-fluid{
 	background: #313131;
 	padding: 20px 50px;
@@ -7,9 +10,10 @@
 	padding: 2px 5px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
+	font-size: 2em;
 }
-.navbar-brand:hover{
-	color: #313131;
+.navbar-dark:hover, .navbar-brand:hover{
+	color: #313131 !important;
 	background: #fff;
 	border: none;
 	border-radius: 5px;
@@ -17,11 +21,9 @@
 #navbarcontent{
 	color: #fff;
 }
-.menu{
-	float: right;
-}
 
-.menu .nav-link{
+
+.nav-link{
 	color: #fff;
 	font-family: "times new roman";
 }
@@ -30,9 +32,6 @@
 	padding: 20px 60px;
 }
 
-#our-menu, h2{
-	text-align: center;
-} 
 #our-menu{
 	font-weight: 600;
 }	
@@ -45,10 +44,7 @@
 .section p {
 	padding: 10px 15px;
 }
- h1, .section h2{
+ h1, .section h3, .section a{
 	font-family: 'Klee One', cursive;
 
-}
-.navbar-toggler{
-	background-color: #fff;
 }
