@@ -12,39 +12,36 @@
 	<title>Module 3 Assignment Solution</title>
 </head>
 <body>
-	<header>
+	
 		<nav class="navbar navbar-expand-sm navbar-dark">
 			<div class="container-fluid">
-				<div id="navigationbrand">
-					<a class="navbar-brand" href="index.html">Food, LLC</a>	
-				</div>
-    			
-		    		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-									    <span class="navbar-toggler-icon"></span>
-					</button>
+			    <a class="navbar-brand" href="index.html">Food, LLC</a>
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+    			<div class="collapse navbar-collapse show text-center" id="navbarSupportedContent">
 					    <div class="collapse navbar-collapse " id="navbarSupportedContent">
 						    <ul class="navbar-nav d-block d-sm-none">
 						        <li class="nav-item">
-						          <a class="nav-link active" href="#">Chichen</a>
+						          <a class="nav-link" href="#chicken">Chichen</a>
 						        </li>
 						        <li class="nav-item">
-						        	<a class="nav-link" href="#">Beef</a>	
+						        	<a class="nav-link" href="#beef">Beef</a>	
 						        </li>
 						        <li class="nav-item">
-						        	<a class="nav-link" href="">Suchi</a>
+						        	<a class="nav-link" href="#sushi">Sushi</a>
 						        </li>
 					    	</ul>
 					    </div>
-			
+				</div>
 				
 			</div>
 		</nav>
-	</header>
 
 		<div class="content">
 			<h1 id="our-menu" class="text-center">Our Menu</h1>
 			<div class="row">
-				<div class="col-md-4 col-sm-6 col-xs-12">
+				<div id="chicken" class="col-md-4 col-sm-6 col-xs-12">
 					<div class="section">
 
 						<h3 class="text-center">Chicken</h3>
@@ -56,7 +53,7 @@
 					
 				</div>
 
-				<div class="col-md-4 col-sm-6 col-xs-12">
+				<div id="beef" class="col-md-4 col-sm-6 col-xs-12">
 					<div class="section">
 						<h3 class="text-center">Beef</h3>
 					<p>
@@ -67,9 +64,9 @@
 								
 				</div>
 
-				<div class="col-md-4 col-xs-12">
+				<div id="sushi" class="col-md-4 col-xs-12">
 					<div class="section">
-						<h3 class="text-center">Suchi</h3>
+						<h3 class="text-center">Sushi</h3>
 					<p>
 						Curabitur varius maximus nisi eget blandit. Vestibulum congue nibh sit amet interdum fermentum. Mauris pulvinar dignissim suscipit. Praesent sit amet aliquet leo, vitae hendrerit ipsum. Suspendisse mattis, tortor id venenatis porta, lectus odio euismod libero, sit amet laoreet nunc purus eu magna. Duis nec lacus turpis. Mauris nec leo et ipsum varius sagittis in malesuada mi.
 						<a href="#our-menu" class="d-block d-sm-none">Back To Top</a>
@@ -80,10 +77,10 @@
 		</div>
 
 
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="js/jquery-3.6.0.js"></script>
-<script src="js/bootstrap.js"></script>
 <script src="js/bootstrap.bundle.js"></script>
+<script src="js/bootstrap.js"></script>
 <script src="js/script.js"></script>
 
 </body>

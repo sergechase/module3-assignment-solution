@@ -5,7 +5,7 @@
 	background: #313131;
 	padding: 20px 50px;
 }
-.navbar-brand{
+.navbar-brand {
 	color: #fff;
 	padding: 2px 5px;
 	font-family: 'Roboto', sans-serif;
@@ -18,6 +18,9 @@
 	border: none;
 	border-radius: 5px;
 }
+
+
+
 #navbarcontent{
 	color: #fff;
 }
@@ -28,6 +31,9 @@
 	font-family: "times new roman";
 }
 
+.navbar-nav{
+	font-size: 1.3em;
+}
 .content{
 	padding: 20px 60px;
 }
