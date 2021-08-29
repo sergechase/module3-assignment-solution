@@ -3,7 +3,7 @@
 }
 .container-fluid{
 	background: #313131;
-	padding: 20px 50px;
+	padding: 20px 40px;
 }
 .navbar-brand {
 	color: #fff;
@@ -11,6 +11,7 @@
 	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
 	font-size: 2em;
+	float: left;
 }
 .navbar-dark:hover, .navbar-brand:hover{
 	color: #313131 !important;
@@ -19,23 +20,36 @@
 	border-radius: 5px;
 }
 
-
+.navbar-dark .navbar-nav .nav-link {
+	color: #F0F0F0;
+}
 
 #navbarcontent{
 	color: #fff;
 }
 
-
+#top .section{
+	background: #0887B4 ;
+}
+#top a{
+	color: white;
+}
 .nav-link{
 	color: #fff;
 	font-family: "times new roman";
 }
 
 .navbar-nav{
+	background: #ffffff2b;
 	font-size: 1.3em;
 }
+
+.navbar-nav a, .nav-link a, .navbar-dark a{
+    border: 2px #fff;
+}	
+
 .content{
-	padding: 20px 60px;
+	padding: 10px 20px;
 }
 
 #our-menu{
@@ -45,6 +59,8 @@
 .section{
 	margin: 10px 5px;
 	color: #fff;
+}
+ #Chicken .section, #sushi .section, #beef .section{
 	background: #313131;
 }
 .section p {
